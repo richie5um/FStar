@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9800FB4F3357A85647D0FF87 /* libPods-FStar.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 30997033F8CDEF4CEFCB0832 /* libPods-FStar.a */; };
+		A06C9124977189728E3E23E1 /* libPods-FStarUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FDC24C4383E16D64D55BFC0C /* libPods-FStarUITests.a */; };
 		BAD4DBA020B3519A00F475A8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BAD4DB9F20B3519A00F475A8 /* AppDelegate.m */; };
 		BAD4DBA220B3519A00F475A8 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = BAD4DBA120B3519A00F475A8 /* GameScene.sks */; };
 		BAD4DBA420B3519A00F475A8 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = BAD4DBA320B3519A00F475A8 /* Actions.sks */; };
@@ -18,6 +20,7 @@
 		BAD4DBB520B3519A00F475A8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BAD4DBB420B3519A00F475A8 /* main.m */; };
 		BAD4DBBF20B3519A00F475A8 /* FStarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BAD4DBBE20B3519A00F475A8 /* FStarTests.m */; };
 		BAD4DBCA20B3519A00F475A8 /* FStarUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BAD4DBC920B3519A00F475A8 /* FStarUITests.m */; };
+		BB73500AE2C0C9DF13895A2F /* libPods-FStarTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CDD7ADF7EF83CCC823D3FB23 /* libPods-FStarTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +41,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		10FFF8F9598777EE0F25154F /* Pods-FStar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FStar.release.xcconfig"; path = "Pods/Target Support Files/Pods-FStar/Pods-FStar.release.xcconfig"; sourceTree = "<group>"; };
+		30997033F8CDEF4CEFCB0832 /* libPods-FStar.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FStar.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		48B46FA63C75A79BDE92FE85 /* Pods-FStar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FStar.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FStar/Pods-FStar.debug.xcconfig"; sourceTree = "<group>"; };
+		896F9132A046756238101B32 /* Pods-FStarTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FStarTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FStarTests/Pods-FStarTests.debug.xcconfig"; sourceTree = "<group>"; };
+		AA560352C0F36DB5E6CAD791 /* Pods-FStarTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FStarTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FStarTests/Pods-FStarTests.release.xcconfig"; sourceTree = "<group>"; };
 		BAD4DB9B20B3519A00F475A8 /* FStar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FStar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAD4DB9E20B3519A00F475A8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BAD4DB9F20B3519A00F475A8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -58,6 +66,10 @@
 		BAD4DBC520B3519A00F475A8 /* FStarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FStarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAD4DBC920B3519A00F475A8 /* FStarUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FStarUITests.m; sourceTree = "<group>"; };
 		BAD4DBCB20B3519A00F475A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7C89FAC8CC5E7C3DA7AB457 /* Pods-FStarUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FStarUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FStarUITests/Pods-FStarUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		CDD7ADF7EF83CCC823D3FB23 /* libPods-FStarTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FStarTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0DF2D47305FAE78BA283A90 /* Pods-FStarUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FStarUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FStarUITests/Pods-FStarUITests.release.xcconfig"; sourceTree = "<group>"; };
+		FDC24C4383E16D64D55BFC0C /* libPods-FStarUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FStarUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9800FB4F3357A85647D0FF87 /* libPods-FStar.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +85,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB73500AE2C0C9DF13895A2F /* libPods-FStarTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,12 +93,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A06C9124977189728E3E23E1 /* libPods-FStarUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6EC21C27161081ED526089BF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				30997033F8CDEF4CEFCB0832 /* libPods-FStar.a */,
+				CDD7ADF7EF83CCC823D3FB23 /* libPods-FStarTests.a */,
+				FDC24C4383E16D64D55BFC0C /* libPods-FStarUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BAD4DB9220B3519A00F475A8 = {
 			isa = PBXGroup;
 			children = (
@@ -92,6 +117,8 @@
 				BAD4DBBD20B3519A00F475A8 /* FStarTests */,
 				BAD4DBC820B3519A00F475A8 /* FStarUITests */,
 				BAD4DB9C20B3519A00F475A8 /* Products */,
+				E981E65F5615A0E1D6C16336 /* Pods */,
+				6EC21C27161081ED526089BF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -108,19 +135,19 @@
 		BAD4DB9D20B3519A00F475A8 /* FStar */ = {
 			isa = PBXGroup;
 			children = (
+				BAD4DBA320B3519A00F475A8 /* Actions.sks */,
 				BAD4DB9E20B3519A00F475A8 /* AppDelegate.h */,
 				BAD4DB9F20B3519A00F475A8 /* AppDelegate.m */,
-				BAD4DBA120B3519A00F475A8 /* GameScene.sks */,
-				BAD4DBA320B3519A00F475A8 /* Actions.sks */,
+				BAD4DBAE20B3519A00F475A8 /* Assets.xcassets */,
 				BAD4DBA520B3519A00F475A8 /* GameScene.h */,
 				BAD4DBA620B3519A00F475A8 /* GameScene.m */,
+				BAD4DBA120B3519A00F475A8 /* GameScene.sks */,
 				BAD4DBA820B3519A00F475A8 /* GameViewController.h */,
 				BAD4DBA920B3519A00F475A8 /* GameViewController.m */,
-				BAD4DBAB20B3519A00F475A8 /* Main.storyboard */,
-				BAD4DBAE20B3519A00F475A8 /* Assets.xcassets */,
-				BAD4DBB020B3519A00F475A8 /* LaunchScreen.storyboard */,
 				BAD4DBB320B3519A00F475A8 /* Info.plist */,
+				BAD4DBB020B3519A00F475A8 /* LaunchScreen.storyboard */,
 				BAD4DBB420B3519A00F475A8 /* main.m */,
+				BAD4DBAB20B3519A00F475A8 /* Main.storyboard */,
 			);
 			path = FStar;
 			sourceTree = "<group>";
@@ -143,6 +170,19 @@
 			path = FStarUITests;
 			sourceTree = "<group>";
 		};
+		E981E65F5615A0E1D6C16336 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				48B46FA63C75A79BDE92FE85 /* Pods-FStar.debug.xcconfig */,
+				10FFF8F9598777EE0F25154F /* Pods-FStar.release.xcconfig */,
+				896F9132A046756238101B32 /* Pods-FStarTests.debug.xcconfig */,
+				AA560352C0F36DB5E6CAD791 /* Pods-FStarTests.release.xcconfig */,
+				C7C89FAC8CC5E7C3DA7AB457 /* Pods-FStarUITests.debug.xcconfig */,
+				E0DF2D47305FAE78BA283A90 /* Pods-FStarUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -150,9 +190,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BAD4DBCE20B3519A00F475A8 /* Build configuration list for PBXNativeTarget "FStar" */;
 			buildPhases = (
+				2489A60AE27BB6B8E5FA9AE4 /* [CP] Check Pods Manifest.lock */,
 				BAD4DB9720B3519A00F475A8 /* Sources */,
 				BAD4DB9820B3519A00F475A8 /* Frameworks */,
 				BAD4DB9920B3519A00F475A8 /* Resources */,
+				DC9EE8D42754942A7915F154 /* [CP] Embed Pods Frameworks */,
+				21087AA4028ED0BDB11D0AAA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +210,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BAD4DBD120B3519A00F475A8 /* Build configuration list for PBXNativeTarget "FStarTests" */;
 			buildPhases = (
+				73EF2C7E6996FB6E293C45CA /* [CP] Check Pods Manifest.lock */,
 				BAD4DBB620B3519A00F475A8 /* Sources */,
 				BAD4DBB720B3519A00F475A8 /* Frameworks */,
 				BAD4DBB820B3519A00F475A8 /* Resources */,
+				47DC50BEB00D8C348279DEFA /* [CP] Embed Pods Frameworks */,
+				2F8910FD87E903ECA94EFC47 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -185,9 +231,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BAD4DBD420B3519A00F475A8 /* Build configuration list for PBXNativeTarget "FStarUITests" */;
 			buildPhases = (
+				F34C2997458E9964E851F740 /* [CP] Check Pods Manifest.lock */,
 				BAD4DBC120B3519A00F475A8 /* Sources */,
 				BAD4DBC220B3519A00F475A8 /* Frameworks */,
 				BAD4DBC320B3519A00F475A8 /* Resources */,
+				22EC9E65445DE4FC039DF0D1 /* [CP] Embed Pods Frameworks */,
+				3ED76EC006834731B22F003C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -272,6 +321,144 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		21087AA4028ED0BDB11D0AAA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FStar/Pods-FStar-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		22EC9E65445DE4FC039DF0D1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FStarUITests/Pods-FStarUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2489A60AE27BB6B8E5FA9AE4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2F8910FD87E903ECA94EFC47 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FStarTests/Pods-FStarTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3ED76EC006834731B22F003C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FStarUITests/Pods-FStarUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		47DC50BEB00D8C348279DEFA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FStarTests/Pods-FStarTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		73EF2C7E6996FB6E293C45CA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DC9EE8D42754942A7915F154 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FStar/Pods-FStar-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F34C2997458E9964E851F740 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		BAD4DB9720B3519A00F475A8 /* Sources */ = {
@@ -442,6 +629,7 @@
 		};
 		BAD4DBCF20B3519A00F475A8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48B46FA63C75A79BDE92FE85 /* Pods-FStar.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -450,12 +638,13 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.richsomerfield.FStar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		BAD4DBD020B3519A00F475A8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10FFF8F9598777EE0F25154F /* Pods-FStar.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -464,12 +653,13 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.richsomerfield.FStar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		BAD4DBD220B3519A00F475A8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 896F9132A046756238101B32 /* Pods-FStarTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -485,6 +675,7 @@
 		};
 		BAD4DBD320B3519A00F475A8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA560352C0F36DB5E6CAD791 /* Pods-FStarTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -500,6 +691,7 @@
 		};
 		BAD4DBD520B3519A00F475A8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7C89FAC8CC5E7C3DA7AB457 /* Pods-FStarUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = D5C4Q69MRF;
@@ -514,6 +706,7 @@
 		};
 		BAD4DBD620B3519A00F475A8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0DF2D47305FAE78BA283A90 /* Pods-FStarUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = D5C4Q69MRF;
